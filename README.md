@@ -15,7 +15,7 @@
 
 ### App Walkthough GIF
 
-<img src="http://recordit.co/08xCiJs1Xz width=250"><br>
+<img src="http://g.recordit.co/08xCiJs1Xz.gif" width=250><br>
 
 ### Notes
 Not too much.  Had no problems with cocoapods.  Language is still new to me so Im still getting used to it.
