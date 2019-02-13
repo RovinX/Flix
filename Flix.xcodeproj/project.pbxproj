@@ -364,7 +364,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Flix/Pods-Flix-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Flix/Pods-Flix-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 			);
@@ -377,7 +377,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flix/Pods-Flix-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flix/Pods-Flix-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EF3506C57AF5F501FF4D10FE /* [CP] Check Pods Manifest.lock */ = {
@@ -584,7 +584,7 @@
 		};
 		E4ADDEFD2203E99C0027D02B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAF5F21CDC8D949C2844CD74 /* Pods-Flix.debug.xcconfig */;
+			baseConfigurationReference = CEADC1870F81CDEC09A5808C /* Pods-Flix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,7 +602,7 @@
 		};
 		E4ADDEFE2203E99C0027D02B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F597526DAD7CFBDD8079F09E /* Pods-Flix.release.xcconfig */;
+			baseConfigurationReference = 14F921466501E626D91D8E1A /* Pods-Flix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -620,7 +620,7 @@
 		};
 		E4ADDF002203E99C0027D02B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C93966EECFAB1664337F4FD0 /* Pods-FlixTests.debug.xcconfig */;
+			baseConfigurationReference = 57CB62BF302618CEDF6BBE43 /* Pods-FlixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -641,7 +641,7 @@
 		};
 		E4ADDF012203E99C0027D02B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBBEAE69CD08C88556D78F2C /* Pods-FlixTests.release.xcconfig */;
+			baseConfigurationReference = 55856762000A14DCF469C274 /* Pods-FlixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -662,7 +662,7 @@
 		};
 		E4ADDF032203E99C0027D02B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D989242209BCC142F74BBEC /* Pods-FlixUITests.debug.xcconfig */;
+			baseConfigurationReference = 637890F40B97BAD38CD4AC09 /* Pods-FlixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -682,7 +682,7 @@
 		};
 		E4ADDF042203E99C0027D02B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41D05FB0941AC6A906978956 /* Pods-FlixUITests.release.xcconfig */;
+			baseConfigurationReference = 201A4FF0CB4FF06BCEB8D55F /* Pods-FlixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
